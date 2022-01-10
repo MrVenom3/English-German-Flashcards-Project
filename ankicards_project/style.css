@@ -17,13 +17,13 @@ button{
   padding: 8px;
   outline: none;
   cursor: pointer;
-  border: 1px solid rgb(94, 71, 228);
+  border: 1px solid rgb(153, 81, 143);
   border-radius: 5px;
-  background: rgb(98, 170, 253);
+  background: rgb(185, 149, 214);
 }
 
 button:hover{
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(10, 5, 5, 0.1);
 }
 
 .container{
@@ -31,7 +31,7 @@ button:hover{
   margin: auto;
 }
 
-header{background-color: #E9B2CF;}
+header{background-color: #ECD0DB;}
 
 #header{
   display: flex;
@@ -58,7 +58,7 @@ header{background-color: #E9B2CF;}
 }
 
 #create_card h2{
-  color: black;
+  color: rgb(3, 3, 3);
   text-align: center;
 }
 
@@ -72,29 +72,29 @@ header{background-color: #E9B2CF;}
 #create_card button{width: fit-content;}
 
 #flashcards{
-  color:rgba(190, 191, 192, 0.664);
+  color:rgb(11, 13, 14);
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content:center;
+  align-items:end;
   flex-wrap: wrap;
   width: 100%;
   margin: auto;
-  margin-top: 10px;
-  padding: 0px 10px;
+  margin-top: 30px;
+  padding: 10px 10px;
 }
 
 .flashcard{
-  width: 370px;
+  width: 350px;
   opacity: 30px;
   height: 200px;
   word-wrap: break-word;
   margin: 10px; 
-  background:rgb(2, 54, 150);
+  background:#f0d1ff;
   cursor: pointer;
-  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.9);
+  box-shadow: 0px 2px 4px 0px rgba(220, 95, 224, 0.9);
 }
 
-.flashcard h2{font-size: 1rem;}
+.flashcard h2{font-size: 1.5rem;}
 
 @media(max-width:1280px){
   .container{width: 100%;}
